@@ -1,0 +1,11 @@
+{
+    "name": "vasllly/tasks",
+    "description": "Homework 5.2",
+    "authors": [
+        {
+            "name": "Vasiliy Ganja",
+            "email": "ganja@foxford.ru"
+        }
+    ],
+    "require": {"twig/twig": "^1.0"}
+}

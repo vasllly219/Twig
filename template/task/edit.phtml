@@ -1,0 +1,10 @@
+<html>
+<body>
+<a href="./">Список задач</a>
+<h1>Изменение задачи</h1>
+<form action="?/task/edit/id/{{ tasks.id }}/" method="post">
+	<p>Описание задачи: <input type="text" name="name" value="{{ tasks.description }}"></p>
+	<p><input type="submit" value="Сохранить"></p>
+</form>
+</body>
+</html>
